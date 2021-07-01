@@ -1,0 +1,116 @@
+
+*{
+    margin: 0px;
+  
+}
+#li{
+    padding: 6px;
+    background-color: rgba(240, 128, 128, 0.397);
+    margin-left: 10px;
+}
+.h1{
+    color: White;
+    
+}
+body{
+    /* background-image: url("https://source.unsplash.com/user/erondu/1400x900"); */
+    background: url("./about.jpeg") center center/cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+nav{
+  /* background-color: transparent; */
+  border-bottom: 2px solid white;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+}
+
+li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 25px 0px;
+    margin-right: 6px;
+}
+
+
+li a{
+    text-decoration: none;
+    padding: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    /* background-color: blanchedalmond; */
+}
+li a:hover{
+    background-color:#ccc;
+    color: black;
+    /* font-size: 21px; */
+    /* display: inline-block; */
+    /* box-sizing:border-box; */
+}
+li a.active{
+    color: blanchedalmond;
+}
+a:visited{
+    background-color: bisque;
+}
+
+.sec{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid grey;
+    width: 400px;
+    float: left;
+    height: 400px;
+    margin-top: 70px;
+    margin-left: 60px;
+    border-radius: 20px;
+    padding: 30px;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(40, 0, 0, 0.507); /* Black background with 0.5 opacity */
+}
+#btn{
+    width: 325px;
+    padding: 10px;
+    font-size: 15px;
+    border: 2px solid rgba(136, 46, 36, 0.548);
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(255 184 102 / 73%);
+}
+.sec form input{
+   width: 300px;
+   padding: 10px;
+   background-color: #ccc;
+   border-radius: 10px;
+   border: 2px solid black;
+   color: rgb(0, 0, 0);
+   font-size: 15px;
+}
+#textarea{
+    width: 318px;border-radius: 10px;
+    background-color: #ccc;
+    border: 2px solid black;
+    padding: 2px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+.sec2{
+    float: right;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    border: 2px solid grey;
+    margin-right: 60px;
+    width: 600px;
+    height: 400px;
+    margin-top: 70px;
+    border-radius: 20px;
+    padding: 30px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(40, 0, 0, 0.507); /* Black background with 0.5 opacity */
+}

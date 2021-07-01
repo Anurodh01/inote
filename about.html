@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        *{
+            margin:0;
+        font-size:20px;
+        }
+    body{
+        background-color: aquamarine;
+        background: url("./about.jpeg");
+    }
+    .navbar{
+        background-color: #28a58b77;
+        padding: 25px;
+    }
+    .navbar li{
+        display: inline-block;
+        list-style-type: none;
+    }
+    .navbar a{
+        padding: 25px;
+        text-decoration: none;
+        color:blue;
+    }
+    .navbar a:hover{
+        background-color: aliceblue;
+    }
+    .container{
+        background-color: rgba(222, 184, 135, 0.418);
+        text-align:center;
+        
+    }
+    footer{
+        text-align: center;
+        background-color: aqua;
+        color: blueviolet;
+        padding: 20px;
+    }
+    p{
+        text-align: justify;
+        padding: 10px;
+    }
+</style>
+</head>
+<body>
+    <nav class='navbar'>
+        <ul>
+            <li><a href="myproject.php">Home</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2 style='background-color: antiquewhite;' >
+            ABOUT THE WEB
+        </h2><br>
+        <p>
+            This is general purpose <strong>notes making web development</strong> and <strong>most importantly my first web development.</strong> In this a user can make their notes of daily use and doings by signup and login in this website. This website is created with the help of Html,Css,Javascript and Php and with the help of mysql database. In this i tried to give the functionalties of high security as well as i tried to use the password_hash() and password_verify() functions while storing the data and retrieving the data inside the database.In this web development all basic operations of the database as CRUD( create ,read and update and delete).IN the home page the notes can be added to the database and can be update and delete as well.
+            In this web application, we can signup by entering the email and password, in this the unique email is taken. By entering the email and specified password in the login page we will welcome on the home page basic functionaltiesof adding note, editing notes and deleting notes are performed.</p><br>
+            <h2 style='background-color: antiquewhite;'>
+               THIS IS HOW THE INTERFACE OF HOME PAGE LOOKS LIKE
+            </h2><br>
+        <img src="aboutinfo.jpg" alt="Image">
+        
+    </div>
+    <footer>
+        This web application is created by ANURODH SINGH.
+    </footer>
+</body>
+</html>
